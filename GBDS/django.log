@@ -43,3 +43,10 @@ Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 273
 "GET /about/ HTTP/1.1" 200 215
 "GET / HTTP/1.1" 200 273
+Watching for file changes with StatReloader
+Page "main" is open
+"GET / HTTP/1.1" 200 273
+Page "main" is open
+"GET / HTTP/1.1" 200 273
+Page "about_me" is open
+"GET /about/ HTTP/1.1" 200 215

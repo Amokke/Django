@@ -139,7 +139,7 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'home_app': {
+        'shop': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
             'propagate': True,
