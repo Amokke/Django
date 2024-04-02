@@ -1,0 +1,45 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 183
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2443
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 132
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 239
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 175
+"GET / HTTP/1.1" 200 239
+"GET /about/ HTTP/1.1" 200 175
+"GET / HTTP/1.1" 200 239
+"GET /about/ HTTP/1.1" 200 175
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 231
+"GET /about/ HTTP/1.1" 200 231
+"GET /about/ HTTP/1.1" 200 231
+"GET /about/ HTTP/1.1" 200 231
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 273
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 273
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 273
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: main_page() takes 0 positional arguments but 1 was given
+"GET / HTTP/1.1" 500 65680
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 273
+"GET /about/ HTTP/1.1" 200 215
+"GET / HTTP/1.1" 200 273
