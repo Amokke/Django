@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de83c9ce-10ab-4038-b002-3b65ce6181d1" name="Changes" comment="lesson1_2">
-      <change afterPath="$PROJECT_DIR$/GBDS/shop/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GBDS/shop/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GBDS/shop/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GBDS/shop/templates/client_orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GBDS/shop/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GBDS/GBDS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/GBDS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GBDS/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GBDS/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/shop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GBDS/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/django.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GBDS/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GBDS/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,9 +63,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson2",
+    "git-widget-placeholder": "lesson3",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {

@@ -1,28 +1,34 @@
-from django.http import HttpResponse
-import logging
-
-logger = logging.getLogger(__name__)
-
-
-def text(title, html):
-    return f'<h1>Интернет магазин</h1>' \
-           f'<h2>{title}</h2>' \
-           f'<p>{html}</p>'
+from django.shortcuts import render
+from django.utils import timezone
+from datetime import timedelta
+from .models import Client, Product
 
 
-def main_page(request):
-    title = 'Главная страница сайта'
-    html = 'Здесь будет распологаться информация о товаре<br>' \
-           '<a href="/">Главная страница</a><br>' \
-           '<a href = "/about">О себе </a>'
-    logger.info(f'Page "main" is open')
-    return HttpResponse(text(title, html))
+def index(request):
+    return render(request, 'index.html')
 
 
-def about_me(request):
-    title = 'О себе'
-    html = 'Контактная и другая информация<br>' \
-           '<a href="/">Главная страница</a><br>' \
-           '<a href = "/about"> О себе </a>'
-    logger.info(f'Page "about_me" is open')
-    return HttpResponse(text(title, html))
+def about(request):
+    return render(request, 'about.html')
+
+
+def client_orders(request, client_id):
+    client = Client.objects.get(pk=client_id)
+
+    last_7_days = timezone.now() - timedelta(days=7)
+    client_orders_7_days = Product.objects.filter(order_client=client,
+                                                  order_date=last_7_days).distinct()
+
+    last_30_days = timezone.now() - timedelta(days=30)
+    client_orders_30_days = Product.objects.filter(order_client=client,
+                                                   order_date=last_30_days).distinct()
+
+    last_365_days = timezone.now() - timedelta(days=365)
+    client_orders_365_days = Product.objects.filter(order_client=client,
+                                                    order_date=last_365_days).distinct()
+
+    return render(request, 'client_orders.html', {
+        'client_orders_7_days': client_orders_7_days,
+        'client_orders_30_days': client_orders_30_days,
+        'client_orders_365_days': client_orders_365_days,
+    })
