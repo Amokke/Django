@@ -1,7 +1,11 @@
 from django.urls import path
-from . import views
+
+from .views import index, client_orders, about
+
+app_name = 'shop'
 
 urlpatterns = [
-    path('', views.main_page, name='Main_page'),
-    path('about/', views.about_me, name='About_me'),
+    path('', index, name='index'),
+    path('about', about, name='about'),
+    path('client_orders/', client_orders, name='client_orders'),
 ]
