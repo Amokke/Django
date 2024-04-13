@@ -17,15 +17,15 @@ def client_orders(request, client_id):
 
     last_7_days = timezone.now() - timedelta(days=7)
     client_orders_7_days = Product.objects.filter(order_client=client,
-                                                  order_date=last_7_days).distinct()
+                                                  order_date__gte=last_7_days).distinct()
 
     last_30_days = timezone.now() - timedelta(days=30)
     client_orders_30_days = Product.objects.filter(order_client=client,
-                                                   order_date=last_30_days).distinct()
+                                                   order_date__gte=last_30_days).distinct()
 
     last_365_days = timezone.now() - timedelta(days=365)
     client_orders_365_days = Product.objects.filter(order_client=client,
-                                                    order_date=last_365_days).distinct()
+                                                    order_date__gte=last_365_days).distinct()
 
     return render(request, 'client_orders.html', {
         'client_orders_7_days': client_orders_7_days,
