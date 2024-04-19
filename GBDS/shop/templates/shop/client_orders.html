@@ -1,0 +1,50 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}Информация о покупках{% endblock %}
+
+{% block content %}
+
+<h1>{{ client.name }}</h1>
+
+<h2>Last 7 Days</h2>
+<ul>
+    {% for order in client_orders_7_days %}
+    {% for product in order.products.all %}
+    <li>{{ product.name }} - {{ product.price }}</li>
+    {% endfor %}
+    {% endfor %}
+</ul>
+
+<h2>Last 30 Days</h2>
+<ul>
+    {% for order in client_orders_30_days %}
+    {% for product in order.products.all %}
+    <li>{{ product.name }} - {{ product.price }}</li>
+    {% endfor %}
+    {% endfor %}
+</ul>
+
+<h2>Last 365 Days</h2>
+<ul>
+    {% for order in client_orders_365_days %}
+    {% for product in order.products.all %}
+    <li>{{ product.name }} - {{ product.price }}</li>
+    {% endfor %}
+    {% endfor %}
+</ul>
+
+<h2>All Products</h2>
+<ul>
+    {% for product in all_products %}
+    <li>{{ product.name }} - {{ product.price }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Add Product</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ product_form.as_p }}
+    <button type="submit">Add Product</button>
+</form>
+
+{% endblock %}

@@ -12,13 +12,13 @@ Watching for file changes with StatReloader
 "GET /about/ HTTP/1.1" 200 175
 "GET / HTTP/1.1" 200 239
 "GET /about/ HTTP/1.1" 200 175
-D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET /about/ HTTP/1.1" 200 231
 "GET /about/ HTTP/1.1" 200 231
 "GET /about/ HTTP/1.1" 200 231
 "GET /about/ HTTP/1.1" 200 231
-D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET /about/ HTTP/1.1" 200 215
 "GET / HTTP/1.1" 200 273
@@ -26,19 +26,19 @@ Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 273
 "GET /about/ HTTP/1.1" 200 215
 "GET / HTTP/1.1" 200 273
-D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
 Watching for file changes with StatReloader
 Internal Server Error: /
 Traceback (most recent call last):
-  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
                ^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: main_page() takes 0 positional arguments but 1 was given
 "GET / HTTP/1.1" 500 65680
-D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 273
 "GET /about/ HTTP/1.1" 200 215
@@ -50,3 +50,765 @@ Page "main" is open
 "GET / HTTP/1.1" 200 273
 Page "about_me" is open
 "GET /about/ HTTP/1.1" 200 215
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 8, in index
+    return render(request, 'shop/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/index.html
+"GET / HTTP/1.1" 500 83457
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2452
+"GET /client_orders HTTP/1.1" 301 0
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/ HTTP/1.1" 500 65439
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2449
+Not Found: /index
+"GET /index HTTP/1.1" 404 2434
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 8, in index
+    return render(request, 'shop/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/index.html
+"GET / HTTP/1.1" 500 83457
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/ HTTP/1.1" 500 65439
+Not Found: /client_orders/2
+"GET /client_orders/2 HTTP/1.1" 404 2464
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /client_orders/2
+"GET /client_orders/2 HTTP/1.1" 404 2464
+Not Found: /client_orders/2
+"GET /client_orders/2 HTTP/1.1" 404 2464
+Not Found: /client_orders/2
+"GET /client_orders/2 HTTP/1.1" 404 2464
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/ HTTP/1.1" 500 65439
+Not Found: /shop/
+"GET /shop/ HTTP/1.1" 404 2434
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 8, in index
+    return render(request, 'shop/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/index.html
+"GET / HTTP/1.1" 500 83457
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 8, in index
+    return render(request, 'shop/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/index.html
+"GET / HTTP/1.1" 500 83457
+Internal Server Error: /about
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 12, in about
+    return render(request, 'shop/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/about.html
+"GET /about HTTP/1.1" 500 83524
+Watching for file changes with StatReloader
+Internal Server Error: /about
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 12, in about
+    return render(request, 'shop/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/about.html
+"GET /about HTTP/1.1" 500 83661
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 243
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 8, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 134366
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 8, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 134366
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 8, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 134366
+Internal Server Error: /about
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 12, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+"GET /about HTTP/1.1" 500 134301
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /about
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 12, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+"GET /about HTTP/1.1" 500 134438
+D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /about
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\GBDS\shop\views.py", line 12, in about
+    return render(request, 'about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'client_orders' not found. 'client_orders' is not a valid view function or pattern name.
+"GET /about HTTP/1.1" 500 134239
+"GET /about HTTP/1.1" 200 372
+"GET / HTTP/1.1" 200 399
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/ HTTP/1.1" 500 65590
+Not Found: /client_orders/2
+"GET /client_orders/2 HTTP/1.1" 404 2630
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/?2 HTTP/1.1" 500 65730
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/ HTTP/1.1" 500 65439
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/ HTTP/1.1" 500 65576
+Not Found: /client_orders/client_id=1
+"GET /client_orders/client_id=1 HTTP/1.1" 404 2662
+Not Found: /client_orders/client_id="1"
+"GET /client_orders/client_id=%221%22 HTTP/1.1" 404 2692
+"GET /client_orders?client_id=%221%22 HTTP/1.1" 301 0
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/?client_id=%221%22 HTTP/1.1" 500 65831
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/?client_id=1 HTTP/1.1" 500 65789
+"GET /client_orders?client_id=1 HTTP/1.1" 301 0
+Internal Server Error: /client_orders/
+Traceback (most recent call last):
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\пїЅпїЅпїЅпїЅпїЅ\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: client_orders() missing 1 required positional argument: 'client_id'
+"GET /client_orders/?client_id=1 HTTP/1.1" 500 65789
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py", line 9, in index
+    return render(request, 'shop/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 128131
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2640
+"GET / HTTP/1.1" 200 399
+"GET / HTTP/1.1" 200 399
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2625
+Not Found: /client_orders/
+"GET /client_orders/ HTTP/1.1" 404 2649
+"GET /client_orders/1 HTTP/1.1" 301 0
+Internal Server Error: /client_orders/1/
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py", line 17, in client_orders
+    client = Client.objects.get(pk=client_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Client.DoesNotExist: Client matching query does not exist.
+"GET /client_orders/1/ HTTP/1.1" 500 78115
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py", line 9, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 83826
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py", line 9, in index
+    return render(request, 'shop/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 83973
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 399
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2625
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 372
+Not Found: /about/about/
+"GET /about/about/ HTTP/1.1" 404 2644
+"GET / HTTP/1.1" 200 399
+"GET / HTTP/1.1" 200 399
+"GET / HTTP/1.1" 200 399
+"GET /about/ HTTP/1.1" 200 372
+Not Found: /about/about/
+"GET /about/about/ HTTP/1.1" 404 2644
+Not Found: /about/client_orders/
+"GET /about/client_orders/ HTTP/1.1" 404 2668
+Not Found: /about/client_orders/
+"GET /about/client_orders/ HTTP/1.1" 404 2668
+"GET / HTTP/1.1" 200 399
+Not Found: /client_orders/
+"GET /client_orders/ HTTP/1.1" 404 2650
+Internal Server Error: /client_orders/1/
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py", line 17, in client_orders
+    client = Client.objects.get(pk=client_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Client.DoesNotExist: Client matching query does not exist.
+"GET /client_orders/1/ HTTP/1.1" 500 78115
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
