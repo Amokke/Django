@@ -812,3 +812,119 @@ Traceback (most recent call last):
 shop.models.Client.DoesNotExist: Client matching query does not exist.
 "GET /client_orders/1/ HTTP/1.1" 500 78115
 D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 399
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5944
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/auth/user/ HTTP/1.1" 200 11914
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/auth/user/1/change/ HTTP/1.1" 200 23493
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12135
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 6342
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 7884
+"GET /admin/shop/client/add/ HTTP/1.1" 200 12489
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/shop/client/add/ HTTP/1.1" 302 0
+"GET /admin/shop/client/ HTTP/1.1" 200 12822
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/shop/order/ HTTP/1.1" 200 8842
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/shop/order/add/ HTTP/1.1" 200 13859
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/shop/product/ HTTP/1.1" 200 8856
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/shop/product/add/ HTTP/1.1" 200 13012
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/shop/product/add/ HTTP/1.1" 302 0
+"GET /admin/shop/product/ HTTP/1.1" 200 11532
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/shop/order/add/ HTTP/1.1" 200 13902
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/shop/order/add/ HTTP/1.1" 200 14117
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/shop/order/add/ HTTP/1.1" 302 0
+"GET /admin/shop/order/ HTTP/1.1" 200 11178
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/shop/order/ HTTP/1.1" 200 10958
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET / HTTP/1.1" 200 399
+Not Found: /client_orders/
+"GET /client_orders/ HTTP/1.1" 404 2650
+"GET /about/ HTTP/1.1" 200 372
+Not Found: /about/client_orders/
+"GET /about/client_orders/ HTTP/1.1" 404 2668
+"GET / HTTP/1.1" 200 399
+Not Found: /client_orders/
+"GET /client_orders/ HTTP/1.1" 404 2650
+"GET /client_orders/1 HTTP/1.1" 301 0
+Internal Server Error: /client_orders/1/
+Traceback (most recent call last):
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py", line 43, in client_orders
+    return render(request, 'shop/client_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учеба\GeekBrains\Git\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/client_order.html
+"GET /client_orders/1/ HTTP/1.1" 500 86853
+D:\Учеба\GeekBrains\Git\Django\GBDS\shop\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /client_orders/1/ HTTP/1.1" 200 1544

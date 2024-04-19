@@ -40,4 +40,4 @@ def client_orders(request, client_id):
         'product_form': product_form,
     }
 
-    return render(request, 'shop/client_order.html', context)
+    return render(request, 'shop/client_orders.html', context)
