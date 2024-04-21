@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de83c9ce-10ab-4038-b002-3b65ce6181d1" name="Changes" comment="lesson1_2">
+      <change afterPath="$PROJECT_DIR$/GBDS/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GBDS/GBDS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/GBDS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GBDS/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GBDS/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GBDS/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GBDS/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/GBDS/shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson5",
+    "git-widget-placeholder": "lesson6",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
